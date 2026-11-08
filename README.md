@@ -1,28 +1,29 @@
-#MOVIE RECOMMENDATION SYSTEM
+Project Overview
 
-## Project Overview
-A content-based movie recommendation system that recommends similar movies based on movie text data.
+A content-based Movie Recommendation System built using Python and Machine Learning.
 
-## Technologies Used
-Python
-pandas
-Numpy
-NLTK
-Scikit-learn
-TF-IDF Vectorization
-Cosine Similarity
-Streamlit
+Technologies Used
 
-## Features
-- Text preprocessing
-- TF-IDF vectoization
-- Cosine Similarity calculation
-- Movie recommendations
-- Interactive Streamlit interface
+* Python
+* Pandas
+* Scikit-learn
+* TF-IDF Vectorization
+* Cosine Similarity
+* Streamlit
 
-## How to run
-install dependencies:
+Dataset
+TMDB Movie Dataset (reduced dataset containing 1000 movies).
+
+Features
+
+* Select a movie from the dropdown.
+* Find similar movies.
+* Generate top 5 movie recommendations.
+* Display similarity scores.
+
+How to Run
+Install the required libraries:
 pip install -r requirements.txt
-run application:
-streamlit run app.py
 
+Run the application:
+streamlit run app.py
